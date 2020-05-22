@@ -19,10 +19,10 @@ def main():
 
 
     username_element = browser.find_element_by_id("loginName")
-    username_element.send_keys("15377071823")
+    username_element.send_keys("aaa")
 
     userpwd_element = browser.find_element_by_id("loginPassword")
-    userpwd_element.send_keys("hyl110110")
+    userpwd_element.send_keys("bbb")
 
 
     login_element = browser.find_element_by_id("loginAction")
